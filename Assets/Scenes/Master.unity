@@ -211,8 +211,9 @@ GameObject:
   - component: {fileID: 773822562}
   - component: {fileID: 773822561}
   - component: {fileID: 773822560}
+  - component: {fileID: 773822563}
   m_Layer: 5
-  m_Name: Button
+  m_Name: Scene3Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -318,6 +319,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 773822558}
   m_CullTransparentMesh: 0
+--- !u!114 &773822563
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 773822558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b66b9d7e155c2864785d04a981421d0d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  button: {fileID: 773822560}
+  newScene: Scene 3
 --- !u!1 &1359435615
 GameObject:
   m_ObjectHideFlags: 0
@@ -330,8 +345,9 @@ GameObject:
   - component: {fileID: 1359435619}
   - component: {fileID: 1359435618}
   - component: {fileID: 1359435617}
+  - component: {fileID: 1359435620}
   m_Layer: 5
-  m_Name: Button
+  m_Name: Scene1Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -437,6 +453,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1359435615}
   m_CullTransparentMesh: 0
+--- !u!114 &1359435620
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1359435615}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b66b9d7e155c2864785d04a981421d0d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  button: {fileID: 1359435617}
+  newScene: Scene 1
 --- !u!1 &1516971641
 GameObject:
   m_ObjectHideFlags: 0
@@ -449,8 +479,9 @@ GameObject:
   - component: {fileID: 1516971645}
   - component: {fileID: 1516971644}
   - component: {fileID: 1516971643}
+  - component: {fileID: 1516971646}
   m_Layer: 5
-  m_Name: Button
+  m_Name: Scene2Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -556,6 +587,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1516971641}
   m_CullTransparentMesh: 0
+--- !u!114 &1516971646
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1516971641}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b66b9d7e155c2864785d04a981421d0d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  button: {fileID: 1516971643}
+  newScene: Scene 2
 --- !u!1 &1816288000
 GameObject:
   m_ObjectHideFlags: 0
